@@ -1,24 +1,29 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Docker is a great tool for software development since it synchronises your team with the same setup for everyone who collaborates in your project. That's fantastic!
 
-Things you may want to cover:
+Running rails in a Docker Container is pretty straightforward, let's begin by creating a Rails application and then configure a custom Docker Image so we can run the Rails application from there.
 
-* Ruby version
+* Ruby version - 2.5.5
 
-* System dependencies
+* Rails version - 5.2.1
 
-* Configuration
+* Postgresql
 
-* Database creation
+* Created two containers. One is for rails app & another is for db.
 
-* Database initialization
+* References: 
 
-* How to run the test suite
+    https://www.codementor.io/victor_hazbun/docker-for-rails-development-juklgqo36 
+    
+    https://docs.docker.com/compose/rails/
 
-* Services (job queues, cache servers, search engines, etc.)
+* Commands:
 
-* Deployment instructions
+    docker-compose up
 
-* ...
+    docker-compose down
+    
+    docker container ls
+
+
